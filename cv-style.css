@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=block');
+
+body {
+  font-family: "EB Garamond";
+}
+
+a {
+  text-decoration: none;
+  color: #000769;
+}
+
+h3 {
+  margin: 0;
+  float: left;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
+
+ul, ol {
+  padding: 0;
+  margin-top: 16px;
+}
+
+li {
+  list-style-type: none;
+  line-height: 1.5em;
+}
+
+.resume {
+  padding: 20px;
+  margin: auto;
+  max-width: 500px;
+}
+
+.date {
+  float: right;
+  font-style: italic;
+
+}
+
+.location {
+  clear: right;
+  float: right;
+}
+
+.date, .location {
+  font-size: 80%;
+}
+
+.date, .location, h2, .section p em, .footer, .footer a {
+  color: #888;
+}
+
+.title {
+  clear: left;
+  font-weight: bold;
+}
+
+p {
+  clear: left;
+  line-height: 1.3em;
+}
+
+.program {
+  clear: left;
+}
+
+.head {
+  float: left;
+}
+
+.head h1 {
+  margin: 16px 0 0 0;
+}
+
+.head p {
+  margin: 0;
+}
+
+.links {
+  float: right;
+  text-align: right;
+}
+
+.section {
+  margin-bottom: 30px;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+
+.header {
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+.header h2 {
+  position: absolute;
+  top: 5px;
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  margin: 0;
+  right: 40px;
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+p {
+  margin: 0.7em 0;
+}
+
+@media all and (min-width: 1040px), print {
+  .resume {
+    width: 1000px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .sections.left {
+    float: left;
+    margin-right: 40px;
+  }
+
+  .sections.right {
+    float: right;
+  }
+
+  .sections {
+    width: 480px;
+  }
+}
+
+@media print {
+  .resume {
+    font-size: 120%;
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+}
